@@ -12,10 +12,6 @@ def get_credentials():
 
 RDS_credentials = get_credentials()
 
-
-
-
-
 class RDSDatabaseConnector():
     def __init__(self):
         self.credentials = RDS_credentials
