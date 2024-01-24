@@ -58,7 +58,7 @@ class DataTransform:
 ```
 
 ### DataFrameInfo class
-
+This class contains a number of methods that can be used to return information on a data set, most of which can be applied to a specific column of dataset. This includes but not limited to, mean, median, standard deviation, distinct categories and normality tests.  
 ```
 class DataFrameInfo:
     
